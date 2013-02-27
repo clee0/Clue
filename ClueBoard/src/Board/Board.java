@@ -1,6 +1,6 @@
 package Board;
 
-mport java.util.*;
+import java.util.*;
 
 public class Board {
 	private ArrayList<BoardCell> cells;
@@ -15,12 +15,12 @@ public class Board {
 		this.numColumns = 0;
 	}
 	
-	public void loadConfigFiles() {
+	public void loadConfigFiles(String board, String legend) {
 		
 	}
 	
 	public int calcIndex(int row, int column) {
-		
+		return 0;
 	}
 	
 	public RoomCell GetRoomCellAt(int row, int column) {
@@ -44,6 +44,6 @@ public class Board {
 	}
 	
 	public BoardCell getBoardCell() {
-		
+		return null;
 	}
 }
