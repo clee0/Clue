@@ -6,12 +6,21 @@ public class RoomCell extends BoardCell {
 	private DoorDirection doorDirection;
 	private char room;
 	
+	public RoomCell(int row, int col, char room) {
+		super(row,col);
+		this.room = room;
+	}
+	
 	public DoorDirection getDoorDirection() {
 		return doorDirection;
 	}
 
 	public char getRoom() {
 		return room;
+	}
+	
+	public void setDirection(DoorDirection direction) {
+		this.doorDirection = direction;
 	}
 
 	@Override
